@@ -2,11 +2,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Agenda de Tarefa</title>
 <link rel="stylesheet" type="text/css" href="./css/grid.css">
 <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 </head>
 <body style="background: url(./imgs/AbstractGray.jpg);">
+    <?php $reslt ?>
 	<div class="container container_16">
 		<div class="grid_16 prefix_4 suffix_5" 
 			style="background: url(./imgs/AbstractGray.jpg); height: 455px; background-position: center bottom; border: 2px #FFF solid;border-radius: 10px;">

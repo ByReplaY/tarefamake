@@ -10,7 +10,7 @@ class Controller {
 	public function invoke() {
 		$reslt = $this->model->getlogin (); // it call the getlogin() function of model class and store the return value of this function into the reslt variable.
 		if ($reslt == 'login') {
-			echo '<p>'.'Login Sucess!!'.'</p>';
+			include ("./View/construcao.php");
 		} else {
 			include ("./View/login.php");
 		}
